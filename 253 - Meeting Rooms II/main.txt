@@ -1,0 +1,1 @@
+I learned today that elements to Vectors must be assignable, and that pointers to elements of vectors are often invalidated (same as iterators)
