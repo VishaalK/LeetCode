@@ -29,16 +29,6 @@ public:
             // if there is one where it doesn't abut, push the interval into that room
             placeRooms(rooms, interval);
         }
-        
-        // cout << intervals.size() << endl;
-
-        // print rooms
-        // for (auto room : rooms) {
-        //     for (auto interval : room) {
-        //         // cout << "(" << interval.start << "," << interval.end << ") - ";
-        //     }
-        //     // cout << endl;
-        // }
 
         return rooms.size();
     }
